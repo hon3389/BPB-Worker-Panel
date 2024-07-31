@@ -50,7 +50,7 @@ export default {
 
                 switch (url.pathname) {
 
-                    case '/cf':
+                    case '/kcf':
                         return new Response(JSON.stringify(request.cf, null, 4), {
                             status: 200,
                             headers: {
